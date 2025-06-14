@@ -1,4 +1,4 @@
-⚖️ Compliance Assistant Bot
+⚖️ Compliance Assistant Bot (DEMO : https://compliancebot-mlai-aws-jhayush.streamlit.app/)
 
 An AI-powered Compliance Assistant leveraging **AWS Bedrock** and **Kendra** to answer regulatory questions in areas such as AML, KYC, trading, and reporting. It offers a user-friendly interface via **Streamlit**, a CLI option, and is also deployable as an **AWS Lambda** API.
 
