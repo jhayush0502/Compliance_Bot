@@ -13,33 +13,28 @@ An AI-powered Compliance Assistant leveraging **AWS Bedrock** and **Kendra** to 
 
 ## 📁 Project Structure
 ├── app.py # Main source code (provided above)
+
 ├── .env # AWS and app configuration
+
 ├── README.md # Project documentation (this file)
+
 
 🔧 Setup Instructions
 
 1. Clone the repository
-git clone https://github.com/your-org/compliance-assistant-bot.git
-cd compliance-assistant-bot
+git clone https://github.com/jhayush0502/Compliance_Bot.git
+cd Compliance_Bot
 
 
 2. Create .env file
 # .env
-AWS_ACCESS_KEY_ID=your-access-key
-AWS_SECRET_ACCESS_KEY=your-secret-key
-AWS_REGION=us-east-1
-
-BEDROCK_MODEL_ID=anthropic.claude-3-sonnet-20240229-v1:0
-BEDROCK_MAX_TOKENS=2000
-BEDROCK_TEMPERATURE=0.7
-
-KENDRA_INDEX_ID=your-kendra-index-id
-KENDRA_MIN_CONFIDENCE_SCORE=0.3
+# refer example.env
 Note: Ensure you have the correct permissions for AWS Bedrock and Kendra APIs.
 
 
 3. Install dependencies
 pip install -r requirements.txt
+# Developed using python 3.10.9
 
 🖥️ Run Locally with Streamlit
 streamlit run app.py
