@@ -1,0 +1,21 @@
+# AWS Dependencies
+boto3>=1.26.0
+botocore>=1.29.0
+
+# Streamlit for Web Interface
+streamlit>=1.28.0
+
+# Additional utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optional: For enhanced logging and error handling
+colorama>=0.4.6
+rich>=13.0.0
+
+# For JSON handling and data processing
+jsonschema>=4.17.0
+pandas>=2.0.0
+
+# For environment configuration
+python-decouple>=3.8

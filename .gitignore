@@ -1,0 +1,37 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore Streamlit config and state
+.streamlit/
+.stcache/
+.stcache/*
+
+# Ignore distribution/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode or JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore AWS credentials if accidentally placed
+*.aws
